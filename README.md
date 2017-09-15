@@ -14,7 +14,6 @@ $ npm run dev
 $ npm start
 
 # 生成静态文件
-
 $ npm run export
 ```
 
