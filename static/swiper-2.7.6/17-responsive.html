@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="./idangerous.swiper.css">
+    <style>
+        /* Demo Styles */
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            line-height: 1.5;
+            position: relative;
+            height: 100%;
+        }
+
+        .swiper-container {
+            width: 100%;
+            /*height: 581px;*/
+            color: #fff;
+            text-align: center;
+        }
+
+        .swiper-slide {
+        }
+
+        .swiper-slide > img {
+            width: 100%;
+        }
+
+        .pagination {
+            position: absolute;
+            z-index: 20;
+            left: 0;
+            text-align: center;
+            bottom: 5px;
+            width: 100%;
+        }
+
+        .swiper-pagination-switch {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 8px;
+            background: #222;
+            margin-right: 5px;
+            opacity: 0.8;
+            border: 1px solid #fff;
+            cursor: pointer;
+        }
+
+        .swiper-visible-switch {
+            background: #aaa;
+        }
+
+        .swiper-active-switch {
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img id="img" src="../image/banner1.jpg" alt="123">
+        </div>
+        <div class="swiper-slide">
+            <img src="../image/about/banner.png" alt="123">
+        </div>
+        <div class="swiper-slide">
+            <img src="../image/production/banner.png" alt="123">
+        </div>
+    </div>
+    <div class="pagination"></div>
+</div>
+<script src="../bootstrap-3.3.7/js/jquery.min.js"></script>
+<script src="./idangerous.swiper.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        pagination: '.pagination',
+        paginationClickable: true
+    });
+</script>
+</body>
+</html>
