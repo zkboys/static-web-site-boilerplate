@@ -7,7 +7,7 @@ export default () => (
     <Layout activeNav="/news">
         <style jsx>{style}</style>
         <Banner src="/static/image/banner.png" alt="新闻">
-            <p>新闻</p>
+            <p className="title">新闻</p>
         </Banner>
     </Layout>
 );

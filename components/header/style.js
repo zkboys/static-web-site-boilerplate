@@ -1,5 +1,8 @@
 /* language=CSS */
-export default `
+
+import css from 'styled-jsx/css'
+
+export default css`
 .main-nav {
     background: url("/static/image/black-bg-50.png") repeat;
 }

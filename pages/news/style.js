@@ -1,7 +1,11 @@
 /* language=CSS */
 import * as variables from '../../variables';
-export default `
-p{
+
+import css from 'styled-jsx/css'
+
+export default css`
+.title{
+    color: red;
 }
 
 `

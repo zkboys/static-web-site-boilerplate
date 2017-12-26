@@ -5,8 +5,8 @@ import Header from './header/Header';
 const Layout = (props) => (
     <div>
         <Head>
-            <meta charset="utf-8"/>
-            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <meta charSet="utf-8"/>
+            <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
             {/*<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->*/}
             <meta name="keywords" content="星岚酒店PMS, starPMS, 北京星岚科技, 星宿PMS, 酒店管理, 管理软件"/>
@@ -26,13 +26,13 @@ const Layout = (props) => (
 
             {/*<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->*/}
             {/*<!--[if lt IE 9]>*/}
-            <script src="/static/bootstrap-3.3.7/js/ie8-responsive-file-warning.js"></script>
+            <script src="/static/bootstrap-3.3.7/js/ie8-responsive-file-warning.js"/>
             {/*<![endif]-->*/}
             <script src="/static/bootstrap-3.3.7/js/ie-emulation-modes-warning.js"/>
             {/*<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->*/}
             {/*<!--[if lt IE 9]>*/}
-            <script src="/static/bootstrap-3.3.7/js/html5shiv.min.js"></script>
-            <script src="/static/bootstrap-3.3.7/js/respond.min.js"></script>
+            <script src="/static/bootstrap-3.3.7/js/html5shiv.min.js"/>
+            <script src="/static/bootstrap-3.3.7/js/respond.min.js"/>
             {/*<![endif]-->*/}
 
             {/*<!-- Bootstrap core JavaScript*/}
